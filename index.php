@@ -48,26 +48,28 @@ Buon appetito e buon pomeriggio :baby-yoda: -->
 <html lang="en" dir="ltr">
   <head>
   <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <title>Google faq clone</title>
-  <style media="screen">
-    .container{
-      width: 80%;
-      margin: auto;
-    }
-    .faqSection{
-      text-align: justify;
-      margin-bottom: 4rem;
-    }
-    .faqSection h2{
+  <link rel="stylesheet" href="style.css">
 
-    }
-    .faqSection p{
-      margin-top: 2rem;
-    }
-  </style>
   </head>
 
   <body>
+    <nav>
+      <div class="topNav">
+          <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Logo di Google">
+          <p>Privacy e termini</p>
+      </div>
+      <div class="bottomNav">
+        <a href="#">Introduzione</a>
+        <a href="#">Norme sulla Privacy</a>
+        <a href="#">Termini di servizio</a>
+        <a href="#">Tecnologie</a>
+        <a href="#">Domande frequenti</a>
+      </div>
+    </nav>
+
     <div class="container">
       <?php foreach ($db as $key => $faq) { ?>
         <div class="faqSection">

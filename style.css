@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+nav .topNav{
+  padding: 10px;
+}
+
+nav .topNav img{
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+nav .topNav p{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  color: #5F6576;
+  vertical-align: middle;
+}
+
+nav .bottomNav{
+  padding: 5px 0 5px 10px;
+}
+
+nav .bottomNav a{
+  color: #5F6576;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+nav .bottomNav a:hover{
+  padding-bottom: 9px;
+  border-bottom: 2px solid #4285F4;
+  color: #4285F4;
+}
+
+.container {
+  width: 52%;
+  margin: auto;
+  margin-top: 170px;
+}
+
+.container .faqSection {
+  text-align: justify;
+  margin-bottom: 4rem;
+}
+
+.container .faqSection h2 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.container .faqSection p {
+  margin-top: 1.5rem;
+  font-size: 14px;
+  line-height: 24px;
+}
